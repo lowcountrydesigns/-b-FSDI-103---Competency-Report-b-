@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+header{
+    height: 3.1rem;
+    width: 23.4rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.logo{
+    height: min-content;
+    width: min-content;
+    margin-left: 1rem; 
+    margin-top: .33rem;   
+}
+.logo img{
+    object-fit: cover;
+    height: 2.5rem;
+    width: auto;
+}
+.navigation{
+    display: flex;    
+    margin-right: 0;
+    margin-left: auto;
+    width: 13rem;
+    height: 5rem;
+    padding: 0rem;
+    
+}
+.nav-user i{
+    color: rgb(0, 0, 0);
+    font-size: 1.0rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    
+}
+.subscribe{
+    height: 1.8rem;
+    background-color: rgb(0, 0, 0);
+    margin-right: 1rem;
+    padding-top: 1rem;
+        
+}
+.subscribe-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 1rem;
+    margin-left: 1rem;    
+}
+.nav-menu i{
+    color: rgba(0, 0, 0, 0.747);
+    font-size:1.2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+/* main - start */
+.maintitle{
+    color: rgba(255, 255, 255, 0.747);
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.maintitle h2{
+    font-size: 2.7rem;
+    letter-spacing: .5rem;
+}
+.maintitle p{
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    line-height: 25px;
+}
+.maintitle a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(255, 206, 0);
+}
+.divider{
+    width: 2rem;
+    border-bottom: 4px solid yellow;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.storyone{
+    height: 50rem;
+    width: 90%;
+}
+.ship{
+    background-image: url(https://www.nationalgeographic.com/content/dam/archaeologyandhistory/2020/11/lost-colony-discovery/02-lost-colony-discovery.ngsversion.1604622213907.adapt.945.1.jpg);
+    height: 35rem;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.follow-containter{
+    width: 10rem;
+    height: min-content;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 6px;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+}
+.h6{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.fa-facebook-f{
+    color: rgb(16, 40, 173);
+}
+.fa-twitter{
+    color: rgb(124, 158, 207);
+}
+.fa-flipboard{
+    color: rgb(250, 2, 2);
+}
+
